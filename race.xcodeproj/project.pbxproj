@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4DF26B12B6F6E5400C9BE2C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4DF26B02B6F6E5400C9BE2C /* main.cpp */; };
+		A4DF26D72B6F6EB200C9BE2C /* Eagle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4DF26B72B6F6EB100C9BE2C /* Eagle.cpp */; };
+		A4DF26D82B6F6EB200C9BE2C /* LandVehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4DF26B82B6F6EB100C9BE2C /* LandVehicle.cpp */; };
+		A4DF26D92B6F6EB200C9BE2C /* Camel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4DF26BA2B6F6EB100C9BE2C /* Camel.cpp */; };
+		A4DF26DA2B6F6EB200C9BE2C /* MagicCarpet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4DF26BB2B6F6EB100C9BE2C /* MagicCarpet.cpp */; };
+		A4DF26DB2B6F6EB200C9BE2C /* Broom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4DF26BC2B6F6EB100C9BE2C /* Broom.cpp */; };
+		A4DF26DC2B6F6EB200C9BE2C /* UserDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4DF26BD2B6F6EB100C9BE2C /* UserDialog.cpp */; };
+		A4DF26DD2B6F6EB200C9BE2C /* FastCamel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4DF26BE2B6F6EB100C9BE2C /* FastCamel.cpp */; };
+		A4DF26DE2B6F6EB200C9BE2C /* Exceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4DF26C02B6F6EB100C9BE2C /* Exceptions.cpp */; };
+		A4DF26DF2B6F6EB200C9BE2C /* SurfaceType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4DF26C12B6F6EB100C9BE2C /* SurfaceType.cpp */; };
+		A4DF26E02B6F6EB200C9BE2C /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4DF26C52B6F6EB100C9BE2C /* Game.cpp */; };
+		A4DF26E12B6F6EB200C9BE2C /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4DF26C62B6F6EB100C9BE2C /* Player.cpp */; };
+		A4DF26E22B6F6EB200C9BE2C /* Vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4DF26C92B6F6EB100C9BE2C /* Vehicle.cpp */; };
+		A4DF26E32B6F6EB200C9BE2C /* Centaur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4DF26CB2B6F6EB100C9BE2C /* Centaur.cpp */; };
+		A4DF26E42B6F6EB200C9BE2C /* AirVehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4DF26D02B6F6EB200C9BE2C /* AirVehicle.cpp */; };
+		A4DF26E52B6F6EB200C9BE2C /* AllTerrainBoots.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4DF26D32B6F6EB200C9BE2C /* AllTerrainBoots.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A4DF26AB2B6F6E5400C9BE2C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A4DF26AD2B6F6E5400C9BE2C /* race */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = race; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DF26B02B6F6E5400C9BE2C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A4DF26B72B6F6EB100C9BE2C /* Eagle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Eagle.cpp; sourceTree = "<group>"; };
+		A4DF26B82B6F6EB100C9BE2C /* LandVehicle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LandVehicle.cpp; sourceTree = "<group>"; };
+		A4DF26B92B6F6EB100C9BE2C /* LandVehicle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LandVehicle.hpp; sourceTree = "<group>"; };
+		A4DF26BA2B6F6EB100C9BE2C /* Camel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Camel.cpp; sourceTree = "<group>"; };
+		A4DF26BB2B6F6EB100C9BE2C /* MagicCarpet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MagicCarpet.cpp; sourceTree = "<group>"; };
+		A4DF26BC2B6F6EB100C9BE2C /* Broom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Broom.cpp; sourceTree = "<group>"; };
+		A4DF26BD2B6F6EB100C9BE2C /* UserDialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserDialog.cpp; sourceTree = "<group>"; };
+		A4DF26BE2B6F6EB100C9BE2C /* FastCamel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FastCamel.cpp; sourceTree = "<group>"; };
+		A4DF26BF2B6F6EB100C9BE2C /* MagicCarpet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MagicCarpet.hpp; sourceTree = "<group>"; };
+		A4DF26C02B6F6EB100C9BE2C /* Exceptions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exceptions.cpp; sourceTree = "<group>"; };
+		A4DF26C12B6F6EB100C9BE2C /* SurfaceType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SurfaceType.cpp; sourceTree = "<group>"; };
+		A4DF26C32B6F6EB100C9BE2C /* Exceptions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Exceptions.hpp; sourceTree = "<group>"; };
+		A4DF26C42B6F6EB100C9BE2C /* Camel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Camel.hpp; sourceTree = "<group>"; };
+		A4DF26C52B6F6EB100C9BE2C /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		A4DF26C62B6F6EB100C9BE2C /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		A4DF26C72B6F6EB100C9BE2C /* Broom.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Broom.hpp; sourceTree = "<group>"; };
+		A4DF26C82B6F6EB100C9BE2C /* Eagle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Eagle.hpp; sourceTree = "<group>"; };
+		A4DF26C92B6F6EB100C9BE2C /* Vehicle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vehicle.cpp; sourceTree = "<group>"; };
+		A4DF26CA2B6F6EB100C9BE2C /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		A4DF26CB2B6F6EB100C9BE2C /* Centaur.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Centaur.cpp; sourceTree = "<group>"; };
+		A4DF26CC2B6F6EB100C9BE2C /* Vehicle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vehicle.hpp; sourceTree = "<group>"; };
+		A4DF26CD2B6F6EB100C9BE2C /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		A4DF26CE2B6F6EB100C9BE2C /* SurfaceType.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SurfaceType.hpp; sourceTree = "<group>"; };
+		A4DF26CF2B6F6EB100C9BE2C /* Player.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		A4DF26D02B6F6EB200C9BE2C /* AirVehicle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AirVehicle.cpp; sourceTree = "<group>"; };
+		A4DF26D12B6F6EB200C9BE2C /* AirVehicle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AirVehicle.hpp; sourceTree = "<group>"; };
+		A4DF26D22B6F6EB200C9BE2C /* UserDialog.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UserDialog.hpp; sourceTree = "<group>"; };
+		A4DF26D32B6F6EB200C9BE2C /* AllTerrainBoots.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AllTerrainBoots.cpp; sourceTree = "<group>"; };
+		A4DF26D42B6F6EB200C9BE2C /* FastCamel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FastCamel.hpp; sourceTree = "<group>"; };
+		A4DF26D52B6F6EB200C9BE2C /* AllTerrainBoots.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AllTerrainBoots.hpp; sourceTree = "<group>"; };
+		A4DF26D62B6F6EB200C9BE2C /* Centaur.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Centaur.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4DF26AA2B6F6E5400C9BE2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4DF26A42B6F6E5400C9BE2C = {
+			isa = PBXGroup;
+			children = (
+				A4DF26AF2B6F6E5400C9BE2C /* race */,
+				A4DF26AE2B6F6E5400C9BE2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4DF26AE2B6F6E5400C9BE2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF26AD2B6F6E5400C9BE2C /* race */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4DF26AF2B6F6E5400C9BE2C /* race */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF26D02B6F6EB200C9BE2C /* AirVehicle.cpp */,
+				A4DF26D12B6F6EB200C9BE2C /* AirVehicle.hpp */,
+				A4DF26D32B6F6EB200C9BE2C /* AllTerrainBoots.cpp */,
+				A4DF26D52B6F6EB200C9BE2C /* AllTerrainBoots.hpp */,
+				A4DF26BC2B6F6EB100C9BE2C /* Broom.cpp */,
+				A4DF26C72B6F6EB100C9BE2C /* Broom.hpp */,
+				A4DF26BA2B6F6EB100C9BE2C /* Camel.cpp */,
+				A4DF26C42B6F6EB100C9BE2C /* Camel.hpp */,
+				A4DF26CB2B6F6EB100C9BE2C /* Centaur.cpp */,
+				A4DF26D62B6F6EB200C9BE2C /* Centaur.hpp */,
+				A4DF26CA2B6F6EB100C9BE2C /* CMakeLists.txt */,
+				A4DF26B72B6F6EB100C9BE2C /* Eagle.cpp */,
+				A4DF26C82B6F6EB100C9BE2C /* Eagle.hpp */,
+				A4DF26C02B6F6EB100C9BE2C /* Exceptions.cpp */,
+				A4DF26C32B6F6EB100C9BE2C /* Exceptions.hpp */,
+				A4DF26BE2B6F6EB100C9BE2C /* FastCamel.cpp */,
+				A4DF26D42B6F6EB200C9BE2C /* FastCamel.hpp */,
+				A4DF26C52B6F6EB100C9BE2C /* Game.cpp */,
+				A4DF26CD2B6F6EB100C9BE2C /* Game.hpp */,
+				A4DF26B82B6F6EB100C9BE2C /* LandVehicle.cpp */,
+				A4DF26B92B6F6EB100C9BE2C /* LandVehicle.hpp */,
+				A4DF26BB2B6F6EB100C9BE2C /* MagicCarpet.cpp */,
+				A4DF26BF2B6F6EB100C9BE2C /* MagicCarpet.hpp */,
+				A4DF26C62B6F6EB100C9BE2C /* Player.cpp */,
+				A4DF26CF2B6F6EB100C9BE2C /* Player.hpp */,
+				A4DF26C12B6F6EB100C9BE2C /* SurfaceType.cpp */,
+				A4DF26CE2B6F6EB100C9BE2C /* SurfaceType.hpp */,
+				A4DF26BD2B6F6EB100C9BE2C /* UserDialog.cpp */,
+				A4DF26D22B6F6EB200C9BE2C /* UserDialog.hpp */,
+				A4DF26C92B6F6EB100C9BE2C /* Vehicle.cpp */,
+				A4DF26CC2B6F6EB100C9BE2C /* Vehicle.hpp */,
+				A4DF26B02B6F6E5400C9BE2C /* main.cpp */,
+			);
+			path = race;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4DF26AC2B6F6E5400C9BE2C /* race */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DF26B42B6F6E5400C9BE2C /* Build configuration list for PBXNativeTarget "race" */;
+			buildPhases = (
+				A4DF26A92B6F6E5400C9BE2C /* Sources */,
+				A4DF26AA2B6F6E5400C9BE2C /* Frameworks */,
+				A4DF26AB2B6F6E5400C9BE2C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = race;
+			productName = race;
+			productReference = A4DF26AD2B6F6E5400C9BE2C /* race */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4DF26A52B6F6E5400C9BE2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					A4DF26AC2B6F6E5400C9BE2C = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = A4DF26A82B6F6E5400C9BE2C /* Build configuration list for PBXProject "race" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4DF26A42B6F6E5400C9BE2C;
+			productRefGroup = A4DF26AE2B6F6E5400C9BE2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4DF26AC2B6F6E5400C9BE2C /* race */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4DF26A92B6F6E5400C9BE2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DF26E42B6F6EB200C9BE2C /* AirVehicle.cpp in Sources */,
+				A4DF26E22B6F6EB200C9BE2C /* Vehicle.cpp in Sources */,
+				A4DF26DA2B6F6EB200C9BE2C /* MagicCarpet.cpp in Sources */,
+				A4DF26DC2B6F6EB200C9BE2C /* UserDialog.cpp in Sources */,
+				A4DF26D92B6F6EB200C9BE2C /* Camel.cpp in Sources */,
+				A4DF26D72B6F6EB200C9BE2C /* Eagle.cpp in Sources */,
+				A4DF26DB2B6F6EB200C9BE2C /* Broom.cpp in Sources */,
+				A4DF26DF2B6F6EB200C9BE2C /* SurfaceType.cpp in Sources */,
+				A4DF26DE2B6F6EB200C9BE2C /* Exceptions.cpp in Sources */,
+				A4DF26E52B6F6EB200C9BE2C /* AllTerrainBoots.cpp in Sources */,
+				A4DF26E02B6F6EB200C9BE2C /* Game.cpp in Sources */,
+				A4DF26E12B6F6EB200C9BE2C /* Player.cpp in Sources */,
+				A4DF26D82B6F6EB200C9BE2C /* LandVehicle.cpp in Sources */,
+				A4DF26DD2B6F6EB200C9BE2C /* FastCamel.cpp in Sources */,
+				A4DF26E32B6F6EB200C9BE2C /* Centaur.cpp in Sources */,
+				A4DF26B12B6F6E5400C9BE2C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A4DF26B22B6F6E5400C9BE2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A4DF26B32B6F6E5400C9BE2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A4DF26B52B6F6E5400C9BE2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4DF26B62B6F6E5400C9BE2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4DF26A82B6F6E5400C9BE2C /* Build configuration list for PBXProject "race" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DF26B22B6F6E5400C9BE2C /* Debug */,
+				A4DF26B32B6F6E5400C9BE2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DF26B42B6F6E5400C9BE2C /* Build configuration list for PBXNativeTarget "race" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DF26B52B6F6E5400C9BE2C /* Debug */,
+				A4DF26B62B6F6E5400C9BE2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4DF26A52B6F6E5400C9BE2C /* Project object */;
+}
